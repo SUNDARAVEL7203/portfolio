@@ -24,7 +24,7 @@ function App() {
         <SocialLinks />
         <About />
         <Portfolio />
-<Skills/>
+         <Skills/>
         <Contact />
 
 

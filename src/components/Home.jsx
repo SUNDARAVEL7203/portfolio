@@ -15,12 +15,26 @@ const Home = () => {
                     I am a recent Engineering graduate with a strong foundation in the Mern stack (MongoDB, Express.js, React, and Node.js). I specialize in developing full-stack web applications, combining seamless front-end interfaces with robust back-end functionality to deliver user-focused and efficient solutions
                     </p>
                     <div>
-                        <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-                            Portfolio
-                            <span className="group-hover:rotate-90 duration-300">
-                                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-                            </span>
-                        </button>
+                    <div className="flex gap-4">
+    <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+        Portfolio
+        <span className="group-hover:rotate-90 duration-300">
+            <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+        </span>
+    </button>
+    
+    <button
+        className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+        onClick={() => window.open("https://drive.google.com/file/d/16eDIk1IcHUAcOQVerfN7689-U0ctALs-/view", "_blank")}
+    >
+        Resume
+        <span className="group-hover:rotate-90 duration-300">
+            <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+        </span>
+    </button>
+</div>
+
+
                     </div>
                 </div>
                 <div> 

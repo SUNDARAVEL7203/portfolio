@@ -1,6 +1,7 @@
 import React from "react";
 import HotelApp from "../assets/portfolio/HotelApp.png";
-
+import ChatApp from "../assets/portfolio/ChatApp.png"
+import MernAuthApp from "../assets/portfolio/MernAuthApp.webp"
 const Portfolio = () => {
   const portfolios = [
     {
@@ -8,7 +9,15 @@ const Portfolio = () => {
       src: HotelApp,
       demo : "https://hotelbooking-frontend-guvicapstone.netlify.app/",
       code : "https://github.com/SUNDARAVEL7203/Hotel-booking-App-frontend"
-    }
+    },
+   {
+    id:2,
+    src: ChatApp,
+   },
+   {
+    id:3,
+    src: MernAuthApp
+   }
   ];
 
   return (
