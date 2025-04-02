@@ -25,7 +25,15 @@ const Portfolio = () => {
       demo: "https://mernauthapp1234.netlify.app",
       code: "https://github.com/SUNDARAVEL7203/MERN-Auth-App",
       techs: ["React", "Node.js", "Express", "WebSocket"]
+    },
+    {
+      id: 4,
+      src: JobPortal,
+      demo: "https://jobportal-frontend-psi.vercel.app/",
+      code: "https://github.com/SUNDARAVEL7203/jobportal_frontend",
+      techs: ["React", "Node.js", "Express", "WebSocket"]
     }
+
   ];
 
   return (
