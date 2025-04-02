@@ -2,6 +2,7 @@ import React from "react";
 import HotelApp from "../assets/portfolio/HotelApp.png";
 import ChatApp from "../assets/portfolio/ChatApp.png";
 import MernAuthApp from "../assets/portfolio/MernAuthApp.webp";
+import JobPortal from "../assets/portfolio/JobPortal.png"
 
 const Portfolio = () => {
   const portfolios = [
