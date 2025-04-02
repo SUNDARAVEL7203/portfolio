@@ -15,7 +15,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: ChatApp,
-      demo: "https://mern-chat-app-a713.onrender.com",
+      demo: "https://mern-chat-app-a713.onrender.com/login",
       code: "https://github.com/SUNDARAVEL7203/MERN-Chat-App",
       techs: ["React", "Node.js", "Express", "WebSocket"]
     },
