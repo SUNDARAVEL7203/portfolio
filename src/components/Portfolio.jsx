@@ -32,7 +32,7 @@ const Portfolio = () => {
       src: JobPortal,
       demo: "https://jobportal-frontend-psi.vercel.app/",
       code: "https://github.com/SUNDARAVEL7203/jobportal_frontend",
-      techs: ["React", "Node.js", "Express", "WebSocket"]
+      techs: ["React", "Node.js", "Express", "Redux"]
     }
 
   ];
