@@ -15,11 +15,15 @@ const Portfolio = () => {
     {
       id: 2,
       src: ChatApp,
+      demo: "https://mern-chat-app-a713.onrender.com",
+      code: "https://github.com/SUNDARAVEL7203/MERN-Chat-App",
       techs: ["React", "Node.js", "Express", "WebSocket"]
     },
     {
       id: 3,
       src: MernAuthApp,
+      demo: "https://mernauthapp1234.netlify.app",
+      code: "https://github.com/SUNDARAVEL7203/MERN-Auth-App",
       techs: ["React", "Node.js", "Express", "WebSocket"]
     }
   ];
@@ -47,13 +51,13 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button
-                  onClick={() => demo && window.open(demo, "_blank")}
+                  onClick={() => window.open(demo, "_blank")}
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                 >
                   Demo
                 </button>
                 <button
-                  onClick={() => code && window.open(code, "_blank")}
+                  onClick={() => window.open(code, "_blank")}
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                 >
                   Code
