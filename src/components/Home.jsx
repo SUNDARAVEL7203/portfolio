@@ -25,7 +25,7 @@ const Home = () => {
     
     <button
         className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
-        onClick={() => window.open("https://drive.google.com/file/d/16eDIk1IcHUAcOQVerfN7689-U0ctALs-/view", "_blank")}
+        onClick={() => window.open("https://drive.google.com/file/d/187tyjl0xpPO77EkfLGStuvNdY4Bfio8m/view", "_blank")}
     >
         Resume
         <span className="group-hover:rotate-90 duration-300">
